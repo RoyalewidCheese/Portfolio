@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================================= Favicon =================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/assets/img/J-icon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/overlay.css">
+    <title>Jithu Johan</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <h1 class="counter">0</h1>
+    
+        <div class="overlay">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    
+        <div class="container-logo-splash">
+            <div class="headerlogo">
+                <h1 class="hh">J</h1>
+                <h1 class="hh">O</h1>
+                <h1 class="hh">H</h1>
+                <h1 class="hh">A</h1>
+                <h1 class="hh">N</h1>
+                <h1 class="hh">.</h1>
+            </div>
+        </div>   
+    </div>
+    
+    <div id="main-content">
+    <header class="header" id="header">
+
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-circle">J</span>
+                <span class="nav__logo__name">Jithu Johan.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <span class="nav__title">Menu</span>
+
+                <h3 class="nav__name">Johan</h3>
+
+                <ul class="nav__list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav__link nav__link-button">Contact  Me</a>
+                    </li>
+                </ul>
+
+
+                <!-- Close Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme Button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle Button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--================================= Main =================================-->
+    <main class="main">
+        <!--================================= Home =================================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                    J. Johan
+                </h1>
+
+                <div class="home__perfil">
+                    <div class="home__image">
+                        <img src="assets/img/johan-home.jpg" alt="nomage" class="home__img">
+                        <div class="home__shadow"></div>
+
+                        <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                        <img src="assets/img/random-lines.svg" alt="" class="home__line">
+
+                        <div class="geometric-box"></div>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/jithujohan/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://www.behance.net/johanroyale" target="_blank" class="home__social-link">
+                            <i class="ri-behance-line"></i>
+                        </a>
+
+                        <a href="https://github.com/RoyalewidCheese" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__info">
+                    <p class="home__description">
+                        <b>MERN Developer</b>, with knowledge in web development and designing, I offer the best projects
+                        resulting in quality work.
+                    </p>
+
+                    <a href="#about" class="home__scroll">
+                        <div class="home__scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+
+                        <span class="home__scroll-text">Scroll Down</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--================================= About =================================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">
+                    <span>About Me.</span>
+                </h2>
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="assets/img/johan-about.jpg" alt="No-Image" class="about__img">
+
+                        <div class="about__shadow"></div>
+
+                        <div class="geometric-box"></div>
+                        <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+
+                <div class="about__info">
+                    <p class="about__description">
+                        Passionate about creating <b>Web Pages</b> with <b>UI/UX User Interface</b>, I have carried out
+                        several works.
+                    </p>
+
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <b>My Skills Are: </b> HTML, CSS, Javascript, Git & Github, Bootstrap,
+                            MongoDB, Express.Js, Angular, React, Node.Js, MySQL, Figma.
+                        </li>
+                    </ul>
+
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line "></i><span class="contact-me">Contact me</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/jithujohan/" target="_blank" class="button__ghost" target="_blank">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--================================= Services =================================-->
+        <section class="services section">
+            <div class="" id="services"></div>
+            <h2 class="section__title-2">
+                <span>Services.</span>
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-artboard-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Graphic Designing</h2>
+
+                        <p class="services__description">
+                            Crafting eye-catching visuals for branding, marketing, and social media that emphasize aesthetics and clarity for a lasting impact.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-code-box-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Web Development</h2>
+
+                        <p class="services__description">
+                            Creating sleek, responsive websites that blend creativity and functionality for a flawless experience on all devices.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-layout-3-line"></i>
+                        </div>
+
+                        <h2 class="services__title">UI/UX Designing</h2>
+
+                        <p class="services__description">
+                            Designing user-friendly interfaces that are both intuitive and visually appealing, ensuring a delightful experience for every interaction.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--================================= Projects =================================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/Mockup.jpg" alt="image" class="projects__img">
+
+                        <a href="iframe1.html" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website UI</h3>
+                        <h2 class="projects__title">Blog Website</h2>
+
+                        <p class="projects__description">
+                            Developed this project in Figma as part of the design course curriculum during my ASAP UI/UX classes. It serves as the user interface for a blog website.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://www.figma.com/design/JYf0QqhoQwJmqGW880l5jl/Jithu-Website-Prototype?node-id=0-1&t=pOPeP46fjjS0fTqf-1" target="_blank" class="projects__link">
+                            <i class="fa-brands fa-figma">   </i>View
+                        </a>
+                        <a href="https://www.behance.net/gallery/210078993/Blog-Website-Figma" target="_blank" class="projects__link">
+                            <i class="fa-brands fa-behance">   </i>View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/PhoneMockup.png" alt="image" class="projects__img">
+
+                        <a href="./iframe2.html" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Mobile App UI</h3>
+                        <h2 class="projects__title">Shoes Store</h2>
+
+                        <p class="projects__description">
+                            Developed this project during my ASAP UI/UX classes in Figma. It represents the UI for a mobile application dedicated to a shoe store.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://www.figma.com/design/XwSt6E4RmLxAsn2WRPmABY/YZ4U-New-Home?node-id=183-116&t=mrUj85K815gYENnf-1" target="_blank" class="projects__link">
+                            <i class="fa-brands fa-figma">   </i>View
+                        </a>
+                        <a href="https://www.behance.net/gallery/210078547/Shoes-Store-UI" target="_blank" class="projects__link">
+                            <i class="fa-brands fa-behance">   </i>View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/DataLabsMockup.jpeg" alt="image" class="projects__img">
+
+                        <a href="https://ltgjg61j-3000.inc1.devtunnels.ms/" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Data Labs Website</h2>
+
+                        <p class="projects__description">
+                            Developed this project during the mini project session, it is a CRUD application focused on lab stock management in a university.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/RoyalewidCheese/Mini-Project" target="_blank" class="projects__link">
+                            <i class="ri-github-line">  </i>View
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--================================= Contact =================================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Contact Me.</span>
+                    </h2>
+
+                    <p class="contact__description-1">
+                        I will read all emails. Send me any message you want and I'll get back to you.
+                    </p>
+                    <p class="contact__description-2">
+                        I need your <b>Name</b> and <b>Email Address</b>, but you won't receive anything other than your
+                        reply.
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Send Me A Message
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required
+                                    placeholder="First Name">
+                                <label for="name" class="contact__label">First name</label>
+                            </div>
+
+
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required
+                                    placeholder="Email Address">
+                                <label for="email" class="contact__label">Email Address</label>
+                            </div>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="text" name="user_subject" class="contact__input" id="subject" required
+                                placeholder="Subject">
+                            <label for="email" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="user_message" id="message" class="contact__input" required
+                                placeholder="Message"></textarea>
+                            <label for="name" class="contact__label">Message</label>
+                        </div>
+                        
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-send-plane-line"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__social">
+                    <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                Does not send emails?
+                            </p>
+
+                            <p class="contact__social-description-2">
+                                Write me on my social networks.
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                            <a href="https://www.behance.net/johanroyale" target="_blank" class="contact__social-link">
+                                <i class="fa-brands fa-behance fa-xs"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/isntjoh/" target="_blank" class="contact__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/jithujohan/" target="_blank" class="contact__social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--================================= Footer =================================-->
+    <footer>
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; All Right Reserved By <b class="footer__name-bold">Jithu Johan.</b>
+            </span>
+        </div>
+    </footer>
+    <!--================================= Scroll Up =================================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+</div>
+    <!--================================= Scroll Reveal =================================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+<!--================================= Email.Js =================================-->
+<script
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<!--================================= External Js =================================-->
+<script src="./assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script>
+
+window.addEventListener('load', () => {
+    // Disable scrolling by setting overflow to hidden
+    document.body.style.overflow = 'hidden';
+
+    setTimeout(() => {
+        // Enable scrolling after 8000 milliseconds
+        document.body.style.overflow = 'auto';
+
+        // Fade out the preloader
+        const preloader = document.getElementById('preloader');
+
+        // Remove preloader completely after fade-out transition (1 second)
+        setTimeout(() => {
+            preloader.style.display = 'none';
+
+            // Start ScrollReveal animations after preloader is gone
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '60px',
+                duration: 2000,
+                delay: 5, // Default delay for elements
+            });
+
+            // Regular reveal for other elements with default delays
+            sr.reveal(`.home__perfil, .home__name, .home__info, .contacts__mail`, {origin: 'right'});
+            sr.reveal(`.about__image, .about__container .section__title-1, .about__info, .contact__social, .contact__data`, {origin: 'left'});
+            sr.reveal(`.services__card, .projects__card`, {interval: 100}); // Interval for staggered reveal
+
+        }, 1000); // Matches the transition duration (1 second)
+    }, 7300); // 8 seconds
+});
+
+
+function startLoader(){
+    let counterElement = document.querySelector(".counter");
+    let currentValue = 0;
+
+    function updateCounter(){
+      if(currentValue === 100){
+        return;
+      }
+
+      currentValue += Math.floor(3 * 1) + 1;
+    
+      if(currentValue > 100){
+        currentValue = 100;
+      }
+      counterElement.textContent = currentValue;
+
+      let delay = Math.floor(.3 * 200) + 50;
+      setTimeout(updateCounter, delay);
+    }
+
+    updateCounter();
+  }
+
+  startLoader();
+
+  gsap.to(".counter", 0.25,{
+    delay: 3.5,
+    opacity: 0,
+  });
+
+  // First animation: bars shrink upwards
+  gsap.to(".bar", 1.5, {
+    delay: 3.5,
+    height: 0, // Shrink the bars
+    stagger: {
+      amount: 0.5,
+    },
+    ease: "power4.inOut",
+  });
+
+  gsap.from(".hh", 1.5, {
+    delay: 4,
+    y: 700,
+    stagger: {
+      amount: 0.5,
+    },
+    ease: "power4.inOut",
+  });
+
+  gsap.from(".hero", 2, {
+    delay: 4.5,
+    height: 400,
+    ease: "power4.inOut",
+  });
+
+  // Alternative approach: Animate the bars back down manually
+  setTimeout(() => {
+    gsap.to(".bar", 1.5, {
+      height: "100vh", // Expand the bars back down
+      stagger: {
+        amount: 0.5,
+      },
+      ease: "power4.inOut",
+    });
+  }, 6500); // Delay to start after the first animation finishes
+  </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+  /* Preloader styling (as you had before) */
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background-color: #fafafa; /* Customize as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Main content will be hidden initially */
+  
+  @font-face {
+    font-family: 'Mammoth-Rush';
+    src: url('Mammoth-Rush.ttf.woff') format('woff'),
+      url('Mammoth-Rush.ttf.svg#Mammoth-Rush') format('svg'),
+      url('Mammoth-Rush.ttf.eot'),
+      url('Mammoth-Rush.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo-splash {
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .logo-splash div {
+    display: flex;
+    padding: 1em;
+    gap: 10em;
+  }
+  
+  .logo-splash div a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .headerlogo {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  .headerlogo .hh {
+    position: relative;
+    font-family: 'Mammoth-Rush';
+    font-size: 7vw;
+    color: #1a1a1a;
+    line-height: 1.125;
+  }
+
+  .overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+  }
+  
+  .bar {
+    width: 10vw;
+    height: 105vh;
+    background-color: #1a1a1a;
+  }
+  
+  .counter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 10000;
+    bottom: 5px;
+    color: #fafafa;
+    padding: 0.2em 0.4em;
+    font-size: 7vw;
+    font-family: 'Mammoth-Rush';
+  }
+
+.decorative-container {
+    position: absolute;
+    width: 50px; /* Width of the decorative box */
+    height: 50px; /* Height of the decorative box */
+    background-color: rgba(255, 255, 255, 0); /* Change color as needed */
+    border-radius: 50%; /* Make it circular */
+}
